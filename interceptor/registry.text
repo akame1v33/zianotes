@@ -1,0 +1,37 @@
+@Configuration
+public class WebMvcConfig implements WebMvcConfigurer {
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(new MyCustomInterceptor());
+    }
+}
+
+public class MyCustomInterceptor implements HandlerInterceptor{
+
+    //unimplemented methods comes here. Define the following method so that it     
+    //will handle the request before it is passed to the controller.
+
+    @Override
+    public boolean preHandle(HttpServletRequest request,HttpServletResponse  response){
+    //your custom logic here.
+        return true;
+    }
+}
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+import me.rajnarayanan.datatest.interceptor.EmployeeInterceptor;
+@Configuration
+public class WebMvcConfig implements WebMvcConfigurer {
+    @Autowired
+    EmployeeInterceptor employeeInterceptor ;
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry){
+        registry.addInterceptor(employeeInterceptor).addPathPatterns("/employee");
+    }
+}

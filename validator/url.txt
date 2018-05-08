@@ -1,0 +1,2 @@
+http://www.baeldung.com/spring-mvc-custom-validator
+http://dolszewski.com/spring/custom-validation-annotation-in-spring/
