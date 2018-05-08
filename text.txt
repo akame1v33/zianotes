@@ -1,0 +1,11 @@
+(16:04) Dexter Ramirez: Alpha and selected Special Characters (-.'ñ)
+(16:04) Dexter Ramirez: 4 special characters lng allowed
+(16:05) Dexter Ramirez: hypen, dot, apastrophe and enye
+(16:06) Dexter Ramirez: then alpha lang dapat
+(16:06) kevin.fabian: ok sir
+(16:07) Dexter Ramirez: ung first name and last name dpat
+(16:07) Dexter Ramirez: Minimum character will be set to two. Count minimum based on alpha characters only.: (e.g. “M.” will NOT be allowed)
+(16:08) Dexter Ramirez: ksama pla pti middle name
+(16:09) Dexter Ramirez: s business name and registered name nmn
+(16:09) Dexter Ramirez: Alpha and Numeric (0-9) and selected Special Characters (-.'ñ)
+(16:11) kevin.fabian: ok sir. isusunod ko na to
