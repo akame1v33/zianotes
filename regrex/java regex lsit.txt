@@ -1,0 +1,10 @@
+	public static final String REGEX_ALPHANUMERIC_BUSINESS_REGISTRATION_NO 	= "^[A-Z0-9\\-]+$";
+	
+	public static final String REGEX_REMOVE_NON_ALPHANUMERIC = "[^A-Z0-9\\s\\-'ñ]";
+	public static final String REGEX_ALPHA			= "^[A-Z\\s]+$";
+	public static final String REGEX_ALPHANUMERIC_CUSTOM 	= "^[A-Z0-9\\s\\-'ñ\\.]+$";
+	public static final String REGEX_ALPHANUMERIC 	= "^[A-Z0-9\\s\\.\\-]+$";
+	public static final String REGEX_NUMERIC		= "\\d+";
+	public static final String REGEX_MAIL 			= "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$";
+	public static final String REGEX_MONTHDAY		= "^[01]{1}\\d{1}/[0123]{1}\\d{1}$";
+	public static final String REGEX_PHONE 	= "^\\(\\d{2,3}\\)\\d{3}-\\d{4}$";
