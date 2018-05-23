@@ -1,0 +1,5 @@
+@EnableResourceServer
+@SpringBootApplication
+@ComponentScan
+@EntityScan("com.pmti.triu.model")
+@EnableJpaRepositories("com.pmti.triu.dao")

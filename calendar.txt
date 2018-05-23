@@ -7,3 +7,30 @@
             adjust = -1;
         }
         age = now.get(Calendar.YEAR) - birth.get(Calendar.YEAR) + adjust;
+
+
+  System.out.println(LocalDateTime.now().getYear());       // 2015
+    System.out.println(LocalDateTime.now().getMonth());      // SEPTEMBER
+    System.out.println(LocalDateTime.now().getDayOfMonth()); // 29
+    System.out.println(LocalDateTime.now().getHour());       // 7
+    System.out.println(LocalDateTime.now().getMinute());     // 36
+    System.out.println(LocalDateTime.now().getSecond());     // 51
+    System.out.println(LocalDateTime.now().get(ChronoField.MILLI_OF_SECOND)); // 100
+
+    // Calendar
+    System.out.println(Calendar.getInstance().get(Calendar.YEAR));         // 2015
+    System.out.println(Calendar.getInstance().get(Calendar.MONTH ) + 1);   // 9
+    System.out.println(Calendar.getInstance().get(Calendar.DAY_OF_MONTH)); // 29
+    System.out.println(Calendar.getInstance().get(Calendar.HOUR_OF_DAY));  // 7
+    System.out.println(Calendar.getInstance().get(Calendar.MINUTE));       // 35
+    System.out.println(Calendar.getInstance().get(Calendar.SECOND));       // 32
+    System.out.println(Calendar.getInstance().get(Calendar.MILLISECOND));  // 481
+
+    // Joda Time
+    System.out.println(new DateTime().getYear());           // 2015
+    System.out.println(new DateTime().getMonthOfYear());    // 9
+    System.out.println(new DateTime().getDayOfMonth());     // 29
+    System.out.println(new DateTime().getHourOfDay());      // 7
+    System.out.println(new DateTime().getMinuteOfHour());   // 19
+    System.out.println(new DateTime().getSecondOfMinute()); // 16
+    System.out.println(new DateTime().getMillisOfSecond()); // 174
