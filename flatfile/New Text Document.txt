@@ -1,0 +1,20 @@
+FLAT FILE
+FlatFileItemWriter
+Files.write(stringData, file, Charsets.UTF_8);
+FileUtils.writeStringToFile(file, stringData, UTF-8);
+
+FileUtils.writeByteArrayToFile(new File(filename), new byte[length]);
+
+FunctionString, Student mapLine = new FunctionString, Student() {
+
+			@Override
+			public Student apply(String line) {	
+				return new Student(line,19);
+			}
+			
+		};
+		
+		ListStudent students = Files.lines(Paths.get(dotfilestest.txt)).map(mapLine).collect( Collectors.toList() );
+		System.out.println(students);
+
+httpsdzone.comarticlesspring-batch-flatfileitemwriter-hacking
