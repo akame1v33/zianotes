@@ -4,3 +4,6 @@ calllbacks with interface
 
 
 http://www.mkyong.com/tutorials/hibernate-tutorials/
+
+
+http://www.objectdb.com/java/jpa/query/jpql/select
