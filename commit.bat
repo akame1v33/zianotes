@@ -1,21 +1,21 @@
 @echo off
-echo type "commit" or "update"
-cd "curl"
+
+
+cd E:\
+cd \springmvcnotes
+
+echo CURRENT LOCATION %cd%
 
 set GIT_PATH="C:\Users\kevin.fabian\AppData\Local\Programs\Git\bin\git.exe"
-set BRANCH = "origin"
 
 :P
-set ACTION=
-set /P ACTION=Action: %=%
-if "%ACTION%"=="c" (
-  %GIT_PATH% add -A
-	%GIT_PATH% commit -am "Auto-committed on %date%"
-	%GIT_PATH% pull %BRANCH%
-	%GIT_PATH% push %BRANCH%
+set FUCK= 
+set /P FUCK=Action: %=%
+
+if "%FUCK%"=="commit" (
+    %GIT_PATH% add .
+	%GIT_PATH% commit -m "Auto-committed on %date%"
+	%GIT_PATH% push origin master
 )
-if "%ACTION%"=="u" (
-	%GIT_PATH% pull %BRANCH%
-)
-if "%ACTION%"=="exit" exit /b
+if "%FUCK%"=="exit" exit /b
 goto P
