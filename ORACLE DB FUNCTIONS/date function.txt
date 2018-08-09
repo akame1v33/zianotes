@@ -1,0 +1,1 @@
+TO_CHAR(payer.DATE_CREATED,'mm/dd/yyyy') FORMAT DATE
