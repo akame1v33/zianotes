@@ -1,0 +1,22 @@
+CREATE FUNCTION COMPUTE_VALUE
+( @export FLOAT, @import FLOAT )
+
+RETURNS float
+
+AS
+
+BEGIN
+	 RETURN ISNULL( (@export + @import) , 0);
+END;
+
+CREATE FUNCTION COMPUTE_SHARE
+( @value FLOAT, @total FLOAT )
+
+RETURNS float
+
+AS
+
+BEGIN
+	 RETURN ISNULL( (@export + @import) , 0);
+END;
+
