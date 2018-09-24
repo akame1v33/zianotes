@@ -1,0 +1,4 @@
+https://medium.com/@tkssharma/understanding-viewchildren-viewchild-contentchildren-and-contentchild-b16c9e0358e
+https://blog.angular-university.io/angular-viewchild/
+https://blog.angularindepth.com/exploring-angular-dom-abstractions-80b3ebcfc02
+https://blog.angularindepth.com/working-with-dom-in-angular-unexpected-consequences-and-optimization-techniques-682ac09f6866
