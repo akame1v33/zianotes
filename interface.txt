@@ -1,5 +1,0 @@
-Creatable
-Deletable
-Updatable
-Findable
-CRUD
