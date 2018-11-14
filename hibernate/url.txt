@@ -1,9 +1,0 @@
-https://gist.github.com/php-coder/1391084/be97af0feb19620fe2a6d2e0276d9b4c638069c6
-https://www.thoughts-on-java.org/complete-guide-inheritance-strategies-jpa-hibernate/
-calllbacks with interface
-
-
-http://www.mkyong.com/tutorials/hibernate-tutorials/
-
-
-http://www.objectdb.com/java/jpa/query/jpql/select
