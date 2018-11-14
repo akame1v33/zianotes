@@ -1,0 +1,1 @@
+http://marcin-chwedczuk.github.io/java-streams-best-practices
