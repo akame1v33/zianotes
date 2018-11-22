@@ -1,0 +1,1 @@
+http://www.chartjs.org/samples/latest/charts/bar/horizontal.html <- chartjs
