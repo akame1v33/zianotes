@@ -1,0 +1,2 @@
+<input type="file" class = 'd-none' #file>
+<button type="button" class="btn" (click)="file.click()"> Browse </button>

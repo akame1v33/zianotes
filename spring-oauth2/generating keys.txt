@@ -1,0 +1,9 @@
+genrsa -out jwt.pem 2048
+
+########PRIVATE########
+rsa -in jwt.pem
+########PRIVATE########
+
+########PUBLIC########
+rsa -in jwt.pem -pubout
+########PUBLIC########
